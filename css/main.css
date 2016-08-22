@@ -45,6 +45,10 @@ body {
   /*display: block;*/
 }
 
+/*.ryu-jump-kick {
+  background-image: url('/Users/user/code/jquery_streetfighter/images/ryu-jump-kick.gif');
+}*/
+
 .hadouken, .ryu-cool, .ryu-ready, .ryu-still, .ryu-throwing {
   background-repeat: no-repeat;
 }
@@ -64,4 +68,63 @@ body {
   position: relative;*/
   z-index: 10;
   /*outline: red 1px solid;*/
+}
+
+.intro-text {
+  position: absolute;
+  left: 650px;
+  height: 425px;
+  width: 600px;
+  padding-top: 75px;
+
+}
+
+.sf-logo {
+  background-image: url('../images/sf-logo.png');
+  /*margin-top: 5px;*/
+	width: 685px;
+	height: 314px;
+  display: none;
+  /*float: right;
+  padding-right: 10px;*/
+}
+
+.brought-by, .instructions {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 40px;
+  color: blue;
+  font-style: bold;
+  margin-top: 100px;
+  text-align: center;
+  display: none;
+}
+
+.brought-by {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.jquery-logo {
+  background-image: url('../images/jquery-logo.png');
+  width: 500px;
+  height: 200px;
+  margin-top: 50px;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instructions {
+
+}
+
+.instructions p {
+  width: 50%;
+  color: black;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+.instructions p + p {
+  margin-left: 275px;
 }

@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<title>Streetfighter</title>
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
-	<link rel="stylesheet" href="css/normalize.css">
+	<!-- <link rel="stylesheet" href="/jquery_streetfighter/css/main.css"> -->
+		<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>
 </head>
+
 <body>
 	<div class="main">
 		<div class="ryu-container">
@@ -16,7 +16,7 @@
 				<div class="ryu-still ryu-action"></div>
 				<div class="ryu-ready ryu-action"></div>
 				<div class="ryu-throwing ryu-action"></div>
-				<div class="ryu-jump-kick ryu-action"></div>
+				<!-- <div class="ryu-jump-kick ryu-action"></div> -->
 				<div class="ryu-cool ryu-action"></div>
 				</div>
 				<div class="hadouken"></div>
@@ -39,9 +39,11 @@
 
 
 <audio id="hadouken-sound" src="sound/hadouken.mp3">
-<audio id="street-fighter-theme" src="sound/street-fighter-theme.mp3"
-<!-- <audio autoplay="autoplay" controls="controls" src="sound/street-fighter-theme.mp3" hidden="hidden" type="audio/mp3" controls> -->
+<audio id="street-fighter-theme" src="sound/street-fighter-theme.mp3">
+	<audio autoplay="autoplay" controls="controls" src="sound/street-fighter-theme.mp3" hidden="hidden" type="audio/mp3" controls>
   </audio>
-<audio id="cool" src="/Users/user/code/jquery_streetfighter/sound/cool.mp3">
+<audio id="cool" src="sound/cool.mp3"></audio>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>">
+	<script src="js/app.js"></script>
 </body>
 </html>

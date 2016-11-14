@@ -28,20 +28,20 @@ body {
 }
 
 .ryu-cool {
-  background-image: url('../images/ryu-cool.gif');
+  background-image: url('/Users/Admin/Sites/code/bubbles/jquery_streetfighter/images/ryu-cool.gif');
 }
 
 .ryu-ready {
-  background-image: url('../images/ryu-ready-position.gif');
+  background-image: url('/Users/Admin/Sites/code/bubbles/jquery_streetfighter/images/ryu-ready-position.gif');
 }
 
 .ryu-still {
-  background-image: url('../images/ryu-standing-still.png');
+  background-image: url('/Users/Admin/Sites/code/bubbles/jquery_streetfighter/images/ryu-standing-still.png');
   /*display: none;*/
 }
 
 .ryu-throwing {
-  background-image: url('../images/ryu-throwing-hadouken.png');
+  background-image: url('/Users/Admin/Sites/code/bubbles/jquery_streetfighter/images/ryu-throwing-hadouken.png');
   /*display: block;*/
 }
 
@@ -80,7 +80,7 @@ body {
 }
 
 .sf-logo {
-  background-image: url('../images/sf-logo.png');
+  background-image: url('/Users/Admin/Sites/code/bubbles/jquery_streetfighter/images/street_fighter_logo.jpg');
   /*margin-top: 5px;*/
 	width: 685px;
 	height: 314px;
@@ -105,7 +105,7 @@ body {
 }
 
 .jquery-logo {
-  background-image: url('../images/jquery-logo.png');
+  background-image: url('/Users/Admin/Sites/code/bubbles/jquery_streetfighter/images/jquery-logo.png');
   width: 500px;
   height: 200px;
   margin-top: 50px;
